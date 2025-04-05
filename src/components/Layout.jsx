@@ -1,12 +1,23 @@
-
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Instagram, Facebook, Twitter, MapPin, Phone, Mail } from 'lucide-react';
+import { Menu, X, Instagram, Facebook, Twitter, MapPin, Phone, Mail, PhoneCall } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
+
 
 const Layout = ({ children }) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   
   const toggleNav = () => setIsNavOpen(!isNavOpen);
+  
+  const phoneNumber = "+91 8379808489";  // Replace with your actual phone number
+
+  const handleCall = () => {
+    window.location.href = `tel:${phoneNumber}`;
+  };
+
+  const handleWhatsApp = () => {
+    window.location.href = `https://wa.me/${phoneNumber.replace('+', '')}`;
+  };
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -14,7 +25,7 @@ const Layout = ({ children }) => {
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <Link to="/" className="font-playfair text-2xl font-bold text-gray-800">
-              Ashtavinayak Caterers
+            Ashtavinayak Caterers
           </Link>
           
           {/* Mobile menu button */}
@@ -52,6 +63,24 @@ const Layout = ({ children }) => {
         )}
       </header>
       
+      {/* Fixed Contact Buttons */}
+      <div className="fixed left-0 top-1/2 z-40 flex flex-col gap-2 ml-2">
+        <button 
+          onClick={handleCall}
+          className="bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-full transition-colors shadow-lg"
+          aria-label="Call us"
+        >
+          <PhoneCall size={24} />
+        </button>
+        <button 
+          onClick={handleWhatsApp}
+          className="bg-green-600 hover:bg-green-700 text-white p-3 rounded-full transition-colors shadow-lg"
+          aria-label="Message on WhatsApp"
+        >
+          <FaWhatsapp size={24} />
+        </button>
+      </div>
+      
       {/* Main content */}
       <main className="flex-grow">
         {children}
@@ -81,16 +110,20 @@ const Layout = ({ children }) => {
               <h3 className="font-playfair text-xl font-bold mb-4">Contact Us</h3>
               <div className="space-y-2">
                 <div className="flex items-center">
-                  <MapPin className="mr-2" size={48} />
+                  <MapPin className="mr-2" size={18} />
                   <span>New Life Pathology Lab, Near, Dange Chowk Rd, near Hanuman Mandir, Bhatewara Nagar, Hinjawadi, Pimpri-Chinchwad, Pune, Maharashtra 411057</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="mr-2" size={18} />
-                  <span>+91 8379808489</span>
+                  <a href="+91 8379808489" className="hover:text-orange-500 transition-colors underline">
+                     +91 8379808489
+                  </a>
                 </div>
                 <div className="flex items-center">
                   <Mail className="mr-2" size={18} />
-                  <span>caterersashtavinayak@gmail.com</span>
+                  <a href="caterersashtavinayak@gmail.com" className="hover:text-orange-500 transition-colors underline">
+                      caterersashtavinayak@gmail.com
+                  </a>
                 </div>
               </div>
             </div>
@@ -98,10 +131,9 @@ const Layout = ({ children }) => {
             <div>
               <h3 className="font-playfair text-xl font-bold mb-4">Opening Hours</h3>
               <div className="space-y-2">
-                <p> Open 24 hours </p>
-                <p> May be closed on Festival </p>
-                
-                
+                <p>Open 24 hours<br></br>
+                May be closed on Festival</p>
+               
               </div>
             </div>
           </div>

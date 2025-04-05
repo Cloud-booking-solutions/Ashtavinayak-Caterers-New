@@ -3,78 +3,100 @@ import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 
 const Menu = () => {
-  const [activeCategory, setActiveCategory] = useState('appetizers');
+  const [activeCategory, setActiveCategory] = useState('breakfast');
 
   const menuCategories = [
-    { id: 'appetizers', name: 'Appetizers' },
-    { id: 'salads', name: 'Salads' },
+    { id: 'breakfast', name: 'Breakfast' },
+    { id: 'starters', name: 'Starters' },
     { id: 'main-courses', name: 'Main Courses' },
-    { id: 'sides', name: 'Side Dishes' },
+    { id: 'roti', name: 'Roti' },
+    {id: 'rice', name: 'Rice'},
     { id: 'desserts', name: 'Desserts' },
     { id: 'beverages', name: 'Beverages' }
   ];
 
   const menuItems = {
-    appetizers: [
+    breakfast: [
       {
         name: 'Samosa',
         description: 'Crispy pastry filled with spiced potatoes and peas, served with mint and tamarind chutneys',
-        price: '₹30',
+        // price: '₹30',
         dietary: ['v'],
         image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
       },
       {
-        name: 'Paneer Tikka',
-        description: 'Cubes of cottage cheese marinated in yogurt and spices, grilled to perfection',
-        price: '₹280',
-        dietary: ['v', 'gf'],
-        image: 'https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+        name: 'idli',
+        description: 'Delicious Idlis are here to serve you',
+        // price: '₹40',
+        dietary: ['v'],
+        image: 'https://static.wixstatic.com/media/34a704_66490675e5574045b7a5b74a2c3bf12b~mv2.jpg/v1/fill/w_1000,h_624,al_c,q_90/34a704_66490675e5574045b7a5b74a2c3bf12b~mv2.jpg'
       },
       {
-        name: 'Onion Bhaji',
-        description: 'Crispy onion fritters spiced with cumin and coriander, served with mint chutney',
-        price: '₹100',
-        dietary: ['v', 'gf'],
-        image: 'https://img.freepik.com/premium-photo/crispy-kanda-bhaji-bhajji-pyaj-pakode-fried-onion-pakora-delicious-street-food-from-india_466689-72976.jpg?w=2000'
+        name: 'Pohe',
+        description: 'Crispy Pohe spiced with cumin and coriander, served with mint chutney',
+        // price: '₹20',
+        dietary: ['v'],
+        image: 'https://img.freepik.com/free-photo/pohe-poha-pohaa-also-known-as-pauwa-sira-chira-aval-bajil-among-many-other-names-is-flattened-rice-originating-from-indian-subcontinent_466689-75403.jpg?w=1380&t=st=1659334933~exp=1659335533~hmac=7d69214e38e555ea8850c14f21d49ca65c8dbb2df13bc2d34a92805902e32729'
       },
       {
-        name: 'Chicken 65',
-        description: 'Spicy deep-fried chicken bites flavored with curry leaves and red chilies',
-        price: '₹200',
-        dietary: [],
-        image: 'https://1.bp.blogspot.com/-7da7hWHJjQc/X5guDBEmelI/AAAAAAAAY-U/npO6jGByU3skct3rWE87cH1uW1I1bREiwCLcBGAsYHQ/s2048/chicken+65+8.JPG'
+        name: 'Dhokla',
+        description: 'Spicy Dhokla flavored with curry leaves and red chilies',
+        // price: '₹30',
+        dietary: ['v'],
+        image: 'https://www.desiblitz.com/wp-content/uploads/2019/10/7-Delicious-Types-of-Dhokla-to-Make-at-Home-chana.jpg'
+      },
+      {
+        name: 'Vada Pav',
+        description: 'Spicy Vada Pav flavored with curry leaves and red chilies',
+        // price: '₹20',
+        dietary: ['v'],
+        image: 'https://media.istockphoto.com/photos/vada-pav-picture-id1329213718?k=20&m=1329213718&s=612x612&w=0&h=uuOkJXL7tCv1mH9GbQ2PV5WKKQmd9evSR7wcQRyAwzo='
+      },
+      {
+        name: 'Mendu Vada',
+        description: 'Delicious Mendu Vada is here with spicy Sambar',
+        // price: '₹30',
+        dietary: ['v'],
+        image: 'http://www.homelycuisine.in/wp-content/uploads/2023/10/Medu-vada.jpg'
       },
     ],
-    salads: [
+    starters: [
       {
-        name: 'Kachumber Salad',
-        description: 'Fresh mixture of cucumber, tomatoes, onions with a squeeze of lemon juice and spices',
-        price: '₹120',
-        dietary: ['v', 'gf'],
-        image: 'https://images.unsplash.com/photo-1551248429-40975aa4de74?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+        name: 'Veg Manchurian',
+        description: 'Veg Manchurian is spicy and crispy option for starter ',
+        // price: '₹120',
+        dietary: ['v'],
+        image: 'https://i.ytimg.com/vi/G5iUqkCLybU/maxresdefault.jpg'
       },
       {
-        name: 'Sprouted Moong Salad',
-        description: 'Nutritious sprouted mung beans with cucumber, tomato, and tangy lemon dressing',
-        price: '₹150',
-        dietary: ['v', 'gf'],
-        image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+        name: 'Paneer Chilli',
+        description: 'Paneer Chilli with cucumber, tomato, and tangy lemon dressing',
+        // price: '₹150',
+        dietary: ['v'],
+        image: 'https://maunikagowardhan.co.uk/wp-content/uploads/2011/11/Chilli-Paneer.jpg'
       },
       {
-        name: 'Tandoori Chicken Salad',
-        description: 'Grilled tandoori chicken slices on a bed of fresh vegetables with raita dressing',
-        price: '₹180',
-        dietary: ['gf'],
-        image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+        name: 'Cutlet',
+        description: 'Cutlets of fresh vegetables with raita dressing',
+        // price: '₹180',
+        dietary: ['v'],
+        image: 'https://e0.pxfuel.com/wallpapers/402/912/desktop-wallpaper-plateful-chicken-cutlets.jpg'
+      },
+      {
+        name: 'French',
+        description: 'french fries as a crispy starter' ,
+        // price: '₹180',
+        dietary: ['v'],
+        image: 'https://c4.wallpaperflare.com/wallpaper/666/302/422/food-potato-french-fries-hd-wallpaper-preview.jpg'
       },
     ],
     'main-courses': [
       {
-        name: 'Butter Chicken',
-        description: 'Tender chicken pieces in a rich, creamy tomato sauce with butter and cream',
-        price: '₹280',
-        dietary: [],
-        image: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+        name: 'Chole Masala',
+        description: 'Chole Masala pieces in a rich, creamy tomato sauce with butter and cream',
+        // price: '₹280',
+        dietary: ['v'],
+        image: 'https://bonmasala.com/wp-content/uploads/2022/06/Chole-Masala.jpg'
       },
       {
         name: 'Paneer Butter Masala',
@@ -84,94 +106,159 @@ const Menu = () => {
         image: 'https://img.freepik.com/premium-photo/delicious-paneer-butter-masala-photography_928503-851.jpg?w=2000'
       },
       {
-        name: 'Lamb Rogan Josh',
-        description: 'Tender lamb pieces slow-cooked in a rich gravy of Kashmiri chilies and spices',
-        price: '₹350',
-        dietary: ['gf'],
-        image: 'https://crockpot-app-prod.s3.ap-southeast-2.amazonaws.com/lamb-shank-rogan-josh-900x900_2ab8d057f0.jpeg'
+        name: 'Kaju Masala',
+        description: 'Kaju Masala pieces slow-cooked in a rich gravy of Kashmiri chilies and spices',
+        // price: '₹350',
+        dietary: ['v'],
+        image: 'https://i.pinimg.com/originals/b2/67/e3/b267e37a01ebe53a4a1be5e709a1d474.png'
       },
       {
-        name: 'Dal Makhani',
+        name: 'Mix Veg',
         description: 'Creamy black lentils slow-cooked with butter and spices, finished with cream',
-        price: '₹220',
-        dietary: ['v', 'gf'],
-        image: 'https://wallpapercave.com/wp/wp8494128.jpg'
+        // price: '₹220',
+        dietary: ['v'],
+        image: 'https://www.thespruceeats.com/thmb/MfnEzKj-5LBRbdrD_WQ59zELEX4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-mixed-vegetable-curry-1957913-03048999db714405bfe8614c975b8a44.jpg'
+      },
+      {
+        name: 'Bhendi Masala',
+        description: 'Bhendi Masala pieces in a rich, creamy tomato sauce with butter and cream',
+        // price: '₹280',
+        dietary: ['v'],
+        image: 'https://aromaticessence.co/wp-content/uploads/2022/06/punjabi_bhindi_masala_gravy_featured-500x500.jpg'
+      },
+      {
+        name: 'Veg Bhuna',
+        description: 'Veg Bhuna pieces in a rich, creamy tomato sauce with butter and cream',
+        // price: '₹280',
+        dietary: ['v'],
+        image: 'https://images.slurrp.com/prod/articles/61672cyokns.webp'
+      },
+      {
+        name: 'Matter Paneer',
+        description: 'Matter Paneer pieces slow-cooked in a rich gravy of Kashmiri chilies and spices',
+        // price: '₹280',
+        dietary: ['v'],
+        image: 'https://c.ndtvimg.com/2022-07/ehlh3ddg_matar-paneer_120x90_06_July_22.png'
+      },
+      {
+        name: 'Brinjal Bhaji',
+        description: 'Brinjal bhaji pieces slow-cooked in a rich gravy of Kashmiri chilies and spices',
+        // price: '₹280',
+        dietary: ['v'],
+        image: 'https://flawlessfood.co.uk/wp-content/uploads/2022/05/Brinjal-Bhaji-.jpg'
       },
     ],
-    sides: [
+    roti: [
       {
-        name: 'Garlic Naan',
-        description: 'Soft leavened bread topped with garlic and butter, baked in tandoor',
-        price: '₹60',
+        name: 'Roti',
+        description: 'Soft leavened bread topped Roti baked in tandoor',
+        // price: '₹60',
         dietary: ['v'],
-        image: 'https://tse1.mm.bing.net/th?id=OIP.9IlTYJWxV6aofqJDcSVbQgHaE7&pid=Api&P=0&h=220'
+        image: 'https://enjoyinfourseason.com/wp-content/uploads/2022/05/Fourseason-PLAIN-ROTI.jpg'
       },
+      {
+        name: 'Puri',
+        description: 'Puri cooked with cumin seeds and aromatic spices',
+        // price: '₹120',
+        dietary: ['v'],
+        image: 'http://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/Puri_Recipe_Traditional_Homemade-2.jpg'
+      },
+      {
+        name: 'Chapati',
+        description: 'Chapati is the healthiest option among all',
+       
+        dietary: ['v'],
+        image: 'https://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/63/2019/06/Chapati-recipe.jpg'
+      },
+    ],
+    rice: [
       {
         name: 'Jeera Rice',
-        description: 'Fragrant basmati rice cooked with cumin seeds and aromatic spices',
-        price: '₹120',
-        dietary: ['v', 'gf'],
-        image: 'https://www.indianhealthyrecipes.com/wp-content/uploads/2022/12/jeera-rice-recipe.jpg'
+        description: 'Jeera rice is the most crispiest rice.',
+        // price: '₹120',
+        dietary: ['v'],
+        image: 'https://www.whiskaffair.com/wp-content/uploads/2021/06/Jeera-Rice-2-2-1.jpg'
       },
       {
-        name: 'Raita',
-        description: 'Cooling yogurt mixed with cucumber, mint, and mild spices',
-        price: '₹70',
-        dietary: ['v', 'gf'],
-        image: 'https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+        name: 'Veg Pulao',
+        description: 'Veg Pulao is spicy rice with all ingridients.',
+        // price: '₹150',
+        dietary: ['v'],
+        image: 'https://4.bp.blogspot.com/-qWzc-7lpAXk/WIEb8Z55zmI/AAAAAAAACdE/iewzgRqTP2Q-TdRenIB3zLueuE9rW2nIQCLcB/s1600/vegetable%2Bpulao.JPG'
+      },
+      {
+        name: 'Dal Khichdi',
+        description: 'Dal khichdi is smooth as gulab jamun.',
+        // price: '₹180g',
+        dietary: ['v'],
+        image: 'https://images.slurrp.com/prod/articles/2g72ummdd9y.webp'
+      },
+      {
+        name: 'Veg Biryani',
+        description: 'Veg biryani is the most delicious rice type' ,
+        // price: '₹180',
+        dietary: ['v'],
+        image: 'https://img.freepik.com/premium-photo/indian-veg-biryani-veg-pulav-4k-hd-photo-indian-vegetable-pulao_1193781-13320.jpg?w=740'
       },
     ],
     desserts: [
       {
-        name: 'Gulab Jamun',
-        description: 'Soft milk-solid dumplings soaked in rose and cardamom flavored sugar syrup',
-        price: '₹100',
+        name: 'Vanila Ice-cream',
+        description: 'Vanila Ice-cream with sweet flavour',
+        // price: '₹100',
         dietary: ['v'],
-        image: 'https://tse3.mm.bing.net/th?id=OIP.B32bansRI7RS3yfbUSEBNwHaHa&pid=Api&P=0&h=220'
+        image: 'https://wallpapercave.com/wp/wp8867888.jpg'
       },
       {
-        name: 'Rasmalai',
-        description: 'Soft cottage cheese patties immersed in creamy saffron milk, garnished with pistachios',
-        price: '₹120',
-        dietary: ['v', 'gf'],
-        image: 'https://images.unsplash.com/photo-1634118520179-0c78b72df69a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+        name: 'Chocolate Ice-cream',
+        description: 'Chocolate Ice-cream with delicious taste',
+        // price: '₹100',
+        dietary: ['v'],
+        image: 'http://www.baltana.com/files/wallpapers-18/Chocolate-Ice-Cream-HD-Desktop-Wallpaper-46571.jpg'
       },
       {
-        name: 'Kheer',
-        description: 'Creamy rice pudding flavored with cardamom, saffron and garnished with nuts',
-        price: '₹90',
-        dietary: ['v', 'gf'],
-        image: 'https://images.unsplash.com/photo-1633383718081-22ac93e3db65?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+        name: 'Butterscotch Ice-cream',
+        description: 'Buttorscotch Ice-cream with sweet flavour',
+        // price: '₹100',
+        dietary: ['v'],
+        image: 'https://images.herzindagi.info/image/2020/Apr/butterscotch-ice-cream-recipe-two.jpg'
       },
       {
-        name: 'Kulfi',
-        description: 'Traditional Indian ice cream made with condensed milk, flavored with pistachios and cardamom',
-        price: '₹80',
-        dietary: ['v', 'gf'],
-        image: 'https://images.unsplash.com/photo-1624353365286-3f8d62daad51?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+        name: 'Strawberry Ice-cream',
+        description: 'Strawberry Ice-cream with sweet flavour',
+        // price: '₹100',
+        dietary: ['v'],
+        image: 'https://e1.pxfuel.com/desktop-wallpaper/632/232/desktop-wallpaper-strawberry-ice-cream-strawberry-ice.jpg'
       },
     ],
     beverages: [
       {
-        name: 'Masala Chai',
-        description: 'Traditional Indian spiced tea brewed with aromatic spices and herbs',
-        price: '₹50',
+        name: 'Coco cola',
+        description: 'Chill with the coco cola.',
+        // price: '₹50',
         dietary: ['v'],
-        image: 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+        image: 'https://images2.alphacoders.com/106/1068711.jpg'
       },
       {
-        name: 'Lassi',
-        description: 'Sweet or salty yogurt-based drink blended with spices and sometimes fruit',
-        price: '₹80',
-        dietary: ['v', 'gf'],
-        image: 'https://www.veganricha.com/wp-content/uploads/2022/06/Baklava-Lassi-4538.jpg'
+        name: 'Sprite',
+        description: 'Stay cools with sprite',
+        // price: '₹80',
+        dietary: ['v'],
+        image: 'https://wallpaperaccess.com/full/1897201.jpg'
       },
       {
-        name: 'Fresh Lime Soda',
+        name: 'Fanta',
         description: 'Refreshing drink made with fresh lime juice, sugar, salt and soda water',
-        price: '₹70',
-        dietary: ['v', 'gf'],
-        image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+        // price: '₹70',
+        dietary: ['v',],
+        image: 'https://c0.wallpaperflare.com/preview/795/164/862/beverage-blur-can-canister.jpg'
+      },
+      {
+        name: 'Maaza',
+        description: 'Refreshing drink made with fresh mazza',
+        // price: '₹70',
+        dietary: ['v',],
+        image: 'https://m.media-amazon.com/images/S/aplus-media-library-service-media/ff48d59b-4923-4fff-86b6-abf44dc0cf51.__CR0,0,970,600_PT0_SX970_V1___.jpg'
       },
     ],
   };
@@ -222,7 +309,7 @@ const Menu = () => {
               </div>
               <div className="flex items-center">
                 <div className="w-3 h-3 rounded-full bg-blue-500 mr-1"></div>
-                <span className="text-sm text-gray-600">Gluten-Free (gf)</span>
+                <span className="text-sm text-gray-600">Non-vegetarian (nv)</span>
               </div>
             </div>
           </div>
@@ -249,7 +336,7 @@ const Menu = () => {
                         <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Vegetarian</span>
                       )}
                       {item.dietary.includes('gf') && (
-                        <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Gluten-Free</span>
+                        <nvan className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Non-vegetarian</nvan>
                       )}
                     </div>
                   </div>
