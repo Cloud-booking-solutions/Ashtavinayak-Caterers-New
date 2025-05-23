@@ -17,21 +17,21 @@ const Home = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Raj Sharma',
+      name: 'Vijay Pardeshi',
       role: 'Wedding Client',
       message:
-        'Culinary Canvas made our wedding day absolutely perfect! The food was amazing and the service was impeccable.',
+        'Shivtej caterers made our wedding day absolutely perfect! The food was amazing and the service was impeccable.',
     },
     {
       id: 2,
-      name: 'Soham Malhotra',
+      name: 'Sujay Vikhe',
       role: 'Corporate Event Manager',
       message:
-        "We've used Culinary Canvas for multiple corporate events and they never disappoint. Professional, creative, and delicious every time!",
+        "We've used Shivtej caterers for multiple corporate events and they never disappoint. Professional, creative, and delicious every time!",
     },
     {
       id: 3,
-      name: 'Aniket Verma',
+      name: 'Aniket Jadhav',
       role: 'Birthday Party Host',
       message:
         'The team went above and beyond for my 50th birthday. My guests are still talking about the incredible food!',
@@ -52,7 +52,7 @@ const Home = () => {
         'Conference meal planning',
       ],
       image:
-        'https://www.focuseventphotography.com/wp-content/uploads/2019/12/corporate-events-photographer-mirage-las-vegas.jpg',
+        'https://plus.unsplash.com/premium_photo-1723867267202-169dfe3b197a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8',
     },
     {
       title: 'Weddings',
@@ -67,7 +67,7 @@ const Home = () => {
         'Cake and dessert tables',
       ],
       image:
-        'https://i.pinimg.com/originals/89/4f/89/894f89d00fd7aa3692980efaa47cc681.jpg',
+        'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VkZGluZyUyMGNhdGVyaW5nfGVufDB8fDB8fHww',
     },
     {
       title: 'Social Events',
@@ -82,7 +82,7 @@ const Home = () => {
         'Kid-friendly options',
       ],
       image:
-        'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'https://plus.unsplash.com/premium_photo-1722945724739-80938c50f65a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c29jaWFsJTIwZXZlbnR8ZW58MHx8MHx8fDA%3D',
     },
     {
       title: 'Private Dining',
@@ -97,7 +97,7 @@ const Home = () => {
         'Personalized menu consultation',
       ],
       image:
-        'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'https://images.unsplash.com/photo-1519671282429-b44660ead0a7?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z3JvdXAlMjBkaW5uZXJ8ZW58MHx8MHx8fDA%3D',
     },
     {
       title: 'Special Occasion Cakes',
@@ -112,7 +112,7 @@ const Home = () => {
         'Wedding cake tastings',
       ],
       image:
-        'https://png.pngtree.com/background/20230424/original/pngtree-birthday-cake-with-candles-and-images-hd-picture-image_2455904.jpg',
+        'https://images.unsplash.com/photo-1604702433171-33756f3f3825?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdlZGRpbmclMjBjYWtlfGVufDB8fDB8fHww',
     },
     {
       title: 'Event Planning',
@@ -127,7 +127,7 @@ const Home = () => {
         'Full-service planning',
       ],
       image:
-        'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'https://images.unsplash.com/photo-1653821355736-0c2598d0a63e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXZlbnQlMjBwbGFubmluZ3xlbnwwfHwwfHx8MA%3D%3D',
     },
   ];
 
@@ -138,14 +138,14 @@ const Home = () => {
         className="relative bg-cover bg-center bg-no-repeat h-[80vh] flex items-center justify-center"
         style={{
           backgroundImage:
-            "url('https://hizonscatering.com/wp-content/uploads/2018/07/Background-for-Website.jpg')",
+            "url('https://i.pinimg.com/736x/de/49/4c/de494cd76b042a36ec16d55161f0ada1.jpg')",
         }}
 
       >
         <div className="absolute inset-0 bg-black bg-opacity-50" />
         <div className="relative text-center text-white z-10 px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-playfair">
-            Welcome to Ashtavinayak Caterers
+            Welcome to Shivtej Caterers
           </h1>
           <p className="text-lg md:text-xl mb-6 max-w-2xl mx-auto">
             Exquisite catering for every occasion. Taste the art of fine cuisine.
@@ -282,7 +282,7 @@ const Home = () => {
             <div className="group">
               <div className="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden mb-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1564671165093-20688ff1fffa?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1577906096429-f73c2c312435?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwZXRpemVyfGVufDB8fDB8fHww" 
                   alt="Appetizers" 
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -295,7 +295,7 @@ const Home = () => {
             <div className="group">
               <div className="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden mb-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1608835291093-394b0c943a75?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVhbHxlbnwwfHwwfHx8MA%3D%3D" 
                   alt="Main Courses" 
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -308,7 +308,7 @@ const Home = () => {
             <div className="group">
               <div className="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden mb-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1551024601-bec78aea704b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzc2VydHxlbnwwfHwwfHx8MA%3D%3D" 
                   alt="Desserts" 
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />

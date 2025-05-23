@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
   
   const toggleNav = () => setIsNavOpen(!isNavOpen);
   
-  const phoneNumber = "+91 8379808489";  // Replace with your actual phone number
+  const phoneNumber = "+91 9021470231";  // Replace with your actual phone number
 
   const handleCall = () => {
     window.location.href = `tel:${phoneNumber}`;
@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <Link to="/" className="font-playfair text-2xl font-bold text-gray-800">
-            Ashtavinayak Caterers
+            Shivtej Caterers
           </Link>
           
           {/* Mobile menu button */}
@@ -91,7 +91,7 @@ const Layout = ({ children }) => {
         <div className="container mx-auto px-4 py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="font-playfair text-xl font-bold mb-4">Ashtavinayak Caterers</h3>
+              <h3 className="font-playfair text-xl font-bold mb-4">Shivtej Caterers</h3>
               <p className="mb-4">We provide exceptional catering services for all your special occasions. From corporate events to weddings, we make every event memorable.</p>
               <div className="flex space-x-4">
                 <a href="https://instagram.com" className="hover:text-orange-500 transition-colors" aria-label="Instagram">
@@ -111,18 +111,18 @@ const Layout = ({ children }) => {
               <div className="space-y-2">
                 <div className="flex items-center">
                   <MapPin className="mr-2" size={18} />
-                  <span>New Life Pathology Lab, Near, Dange Chowk Rd, near Hanuman Mandir, Bhatewara Nagar, Hinjawadi, Pimpri-Chinchwad, Pune, Maharashtra 411057</span>
+                  <span>Punawale, Kate Wasti Chowk, Pimpri-Chinchwad, Maharashtra, 411033</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="mr-2" size={18} />
-                  <a href="+91 8379808489" className="hover:text-orange-500 transition-colors underline">
-                     +91 8379808489
+                  <a href="+91 9021470231" className="hover:text-orange-500 transition-colors underline">
+                     +91 9021470231
                   </a>
                 </div>
                 <div className="flex items-center">
                   <Mail className="mr-2" size={18} />
-                  <a href="caterersashtavinayak@gmail.com" className="hover:text-orange-500 transition-colors underline">
-                      caterersashtavinayak@gmail.com
+                  <a href="shivtejcaterers@gmail.com" className="hover:text-orange-500 transition-colors underline">
+                      shivtejcaterers@gmail.com
                   </a>
                 </div>
               </div>
@@ -139,7 +139,7 @@ const Layout = ({ children }) => {
           </div>
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-            <p>&copy; {new Date().getFullYear()} Ashtavinayak Caterers. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Shivtej Caterers. All rights reserved.</p>
           </div>
         </div>
       </footer>

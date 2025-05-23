@@ -25,7 +25,7 @@ const About = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-cover bg-center h-[50vh] flex items-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')" }}>
+      <section className="relative bg-cover bg-center h-[50vh] flex items-center" style={{ backgroundImage: "url('https://plus.unsplash.com/premium_photo-1686086520541-0d0a8b864bed?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZCUyMGNhdGVyaW5nfGVufDB8fDB8fHww')" }}>
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="container mx-auto px-4 z-10 text-white">
           <h1 className="font-playfair text-5xl md:text-6xl font-bold mb-4">About Us</h1>
@@ -39,28 +39,28 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
-              <p className="text-gray-600 mb-6">Ashtavinayak Caterers was born from a passion for exceptional food and unforgettable events. What began as a small family operation has grown into a premier catering service trusted by clients for all their special occasions.</p>
+              <p className="text-gray-600 mb-6">Shivtej Caterers was born from a passion for exceptional food and unforgettable events. What began as a small family operation has grown into a premier catering service trusted by clients for all their special occasions.</p>
               <p className="text-gray-600 mb-6">We started with a simple mission: to create customized culinary experiences that reflect the unique vision of each client while maintaining the highest standards of quality and service.</p>
               <p className="text-gray-600">Over the years, we've had the privilege of catering hundreds of weddings, corporate gatherings, and special events. Each occasion has strengthened our expertise and deepened our commitment to culinary excellence.</p>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img 
-                src="https://images.unsplash.com/photo-1635363638580-c2809d049eee?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                src="https://plus.unsplash.com/premium_photo-1699612395018-ccaace9d2294?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZCUyMHBob3RvfGVufDB8fDB8fHww" 
                 alt="Chef preparing food" 
                 className="rounded-lg w-full h-64 object-cover"
               />
               <img 
-                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                src="https://images.unsplash.com/photo-1552611052-d59a0d9741bc?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZCUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D" 
                 alt="Catering setup" 
                 className="rounded-lg w-full h-64 object-cover"
               />
               <img 
-                src="https://images.unsplash.com/photo-1555244162-803834f70033?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                src="https://images.unsplash.com/photo-1552611052-33e04de081de?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZCUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D" 
                 alt="Fine dining" 
                 className="rounded-lg w-full h-64 object-cover"
               />
               <img 
-                src="https://images.unsplash.com/photo-1601314212732-047d4bdffd22?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhlYWx0aHklMjBmb29kfGVufDB8fDB8fHww" 
                 alt="Event setup" 
                 className="rounded-lg w-full h-64 object-cover"
               />
@@ -111,14 +111,14 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://josannecassar.com/wp-content/uploads/2017/06/Seashells-catering-team.jpg" 
+                src="https://plus.unsplash.com/premium_photo-1682092170538-9ebcb3a09ac1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGFzdHJ5JTIwY2hlZnxlbnwwfHwwfHx8MA%3D%3D" 
                 alt="Catering team working" 
                 className="rounded-lg w-full h-auto object-cover"
               />
             </div>
             <div>
               <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6">Why Choose Us</h2>
-              <p className="text-gray-600 mb-6">At Ashtavinayak Caterers, we understand that each event is unique. We work closely with you to create a customized menu that reflects your taste, preferences, and the nature of your occasion.</p>
+              <p className="text-gray-600 mb-6">At Shivtej Caterers, we understand that each event is unique. We work closely with you to create a customized menu that reflects your taste, preferences, and the nature of your occasion.</p>
               
               <div className="space-y-4">
                 <div className="flex items-start">

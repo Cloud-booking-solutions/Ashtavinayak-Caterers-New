@@ -54,7 +54,7 @@ const Book = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-cover bg-center h-[40vh] flex items-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')" }}>
+      <section className="relative bg-cover bg-center h-[40vh] flex items-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1592868859049-dfdcd6c07c29?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vZCUyMGNhdGVyaW5nfGVufDB8fDB8fHww')" }}>
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="container mx-auto px-4 z-10 text-white">
           <h1 className="font-playfair text-5xl md:text-6xl font-bold mb-4">Book Our Services</h1>
@@ -396,51 +396,51 @@ const Book = () => {
             <div className="bg-white p-8 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <img 
-                  src="https://randomuser.me/api/portraits/women/65.jpg" 
+                  src="https://plus.unsplash.com/premium_photo-1682144187125-b55e638cf286?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXQlMjBtYW58ZW58MHx8MHx8fDA%3D" 
                   alt="Client" 
                   className="w-12 h-12 rounded-full object-cover mr-4"
                 />
                 <div>
-                  <h4 className="font-bold">Jennifer W.</h4>
+                  <h4 className="font-bold">Rajiv Shukla</h4>
                   <p className="text-gray-500 text-sm">Wedding Client</p>
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "Culinary Canvas catered our wedding last summer, and they exceeded all our expectations. The food was amazing, and their team was professional and attentive. Our guests are still talking about the meal!"
+                "Shivtej Caterers catered our wedding last summer, and they exceeded all our expectations. The food was amazing, and their team was professional and attentive. Our guests are still talking about the meal!"
               </p>
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <img 
-                  src="https://randomuser.me/api/portraits/men/32.jpg" 
+                  src="https://images.unsplash.com/photo-1637589274892-9bc2d5200eab?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWFuJTIwZ3V5fGVufDB8fDB8fHww" 
                   alt="Client" 
                   className="w-12 h-12 rounded-full object-cover mr-4"
                 />
                 <div>
-                  <h4 className="font-bold">Robert T.</h4>
+                  <h4 className="font-bold">Sandip Jain</h4>
                   <p className="text-gray-500 text-sm">Corporate Event</p>
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "We've hired Culinary Canvas for multiple corporate events, and they always deliver. Their attention to detail, flexibility, and delicious food have made them our go-to catering service."
+                "We've hired Shivtej Caterers for multiple corporate events, and they always deliver. Their attention to detail, flexibility, and delicious food have made them our go-to catering service."
               </p>
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <img 
-                  src="https://randomuser.me/api/portraits/women/28.jpg" 
+                  src="https://plus.unsplash.com/premium_photo-1682089846950-974c7c7d5e91?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8d29tZW4lMjBpbmRpYXxlbnwwfHwwfHx8MA%3D%3D" 
                   alt="Client" 
                   className="w-12 h-12 rounded-full object-cover mr-4"
                 />
                 <div>
-                  <h4 className="font-bold">Sofia M.</h4>
+                  <h4 className="font-bold">Anjali Verma</h4>
                   <p className="text-gray-500 text-sm">Birthday Party</p>
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "I cannot recommend Culinary Canvas enough! They catered my 40th birthday party, and everything was perfect. Chef Michael created a custom menu that wowed all my guests."
+                "I cannot recommend Shivtej Caterers enough! They catered my 40th birthday party, and everything was perfect. Chef Michael created a custom menu that wowed all my guests."
               </p>
             </div>
           </div>

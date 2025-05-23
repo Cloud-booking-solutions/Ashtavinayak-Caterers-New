@@ -12,8 +12,8 @@ const Contact = () => {
   });
   const [formSubmitted, setFormSubmitted] = useState(false);
 
-  const phoneNumber = "+91 8379808489"; 
-  const emailAddress = "caterersashtavinayak@gmail.com";
+  const phoneNumber = "+91 9021470231"; 
+  const emailAddress = "shivtejcaterers@gmail.com";
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -58,7 +58,7 @@ const Contact = () => {
         className="relative bg-cover bg-center h-[40vh] flex items-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1609167830220-7164aa360951?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')"
+            "url('https://plus.unsplash.com/premium_photo-1661438404948-3f90203f5a39?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29va2luZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D')"
         }}
       >
         <div className="absolute inset-0 bg-black/60"></div>
@@ -85,7 +85,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Our Location</h3>
-                    <p className="text-gray-600">New Life Pathology Lab, Near, Dange Chowk Rd, near Hanuman Mandir, Bhatewara Nagar, Hinjawadi, Pimpri-Chinchwad, Pune, Maharashtra 411057</p>
+                    <p className="text-gray-600">Punawale, Kate Wasti Chowk, Pimpri-Chinchwad, Maharashtra, 411033</p>
                   </div>
                 </div>
 
@@ -96,7 +96,7 @@ const Contact = () => {
                   <div className="flex items-center">
                     <div>
                       <h3 className="font-bold mb-1">Phone Number</h3>
-                      <p className="text-gray-600">+91 8379808489</p>
+                      <p className="text-gray-600">+91 9021470231</p>
                     </div>
                     <div className="flex ml-4 gap-2">
                       <button
@@ -124,7 +124,7 @@ const Contact = () => {
                   <div className="flex items-center">
                     <div>
                       <h3 className="font-bold mb-1">Email Address</h3>
-                      <p className="text-gray-600">caterersashtavinayak@gmail.com</p>
+                      <p className="text-gray-600">shivtejcaterers@gmail.com</p>
                     </div>
                     <div className="ml-4">
                       <button
@@ -154,7 +154,7 @@ const Contact = () => {
               {/* Google Maps */}
               <div className="rounded-lg overflow-hidden h-80">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3781.547418412104!2d73.7369369751934!3d18.594431982513477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDM1JzQwLjAiTiA3M8KwNDQnMjIuMiJF!5e0!3m2!1sen!2sin!4v1743761755434!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.8546233202833!2d73.73091837496557!3d18.6256074824885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9e1971e5aa5%3A0xd9c6545e72bd9bbf!2sShivtej%20Caterer!5e0!3m2!1sen!2sin!4v1747997052814!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -162,7 +162,8 @@ const Contact = () => {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Our Location"
-                ></iframe>
+                />
+
               </div>
             </div>
 
@@ -292,3 +293,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
+

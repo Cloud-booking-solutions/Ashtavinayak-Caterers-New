@@ -15,7 +15,7 @@ const Services = () => {
         "Product launch catering",
         "Conference meal planning"
       ],
-      image: "https://www.focuseventphotography.com/wp-content/uploads/2019/12/corporate-events-photographer-mirage-las-vegas.jpg"
+      image: "https://plus.unsplash.com/premium_photo-1723867267202-169dfe3b197a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8"
     },
     {
       title: "Weddings",
@@ -28,7 +28,7 @@ const Services = () => {
         "Buffet options",
         "Cake and dessert tables"
       ],
-      image: "https://i.pinimg.com/originals/89/4f/89/894f89d00fd7aa3692980efaa47cc681.jpg"
+      image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VkZGluZyUyMGNhdGVyaW5nfGVufDB8fDB8fHww"
     },
     {
       title: "Social Events",
@@ -41,7 +41,7 @@ const Services = () => {
         "Dessert bars",
         "Kid-friendly options"
       ],
-      image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+      image: "https://plus.unsplash.com/premium_photo-1722945724739-80938c50f65a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c29jaWFsJTIwZXZlbnR8ZW58MHx8MHx8fDA%3D"
     },
     {
       title: "Private Dining",
@@ -54,7 +54,7 @@ const Services = () => {
         "Kitchen cleanup included",
         "Personalized menu consultation"
       ],
-      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1519671282429-b44660ead0a7?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z3JvdXAlMjBkaW5uZXJ8ZW58MHx8MHx8fDA%3D"
     },
     {
       title: "Special Occasion Cakes",
@@ -67,7 +67,7 @@ const Services = () => {
         "Delivery and setup",
         "Wedding cake tastings"
       ],
-      image: "https://png.pngtree.com/background/20230424/original/pngtree-birthday-cake-with-candles-and-images-hd-picture-image_2455904.jpg"
+      image: "https://images.unsplash.com/photo-1604702433171-33756f3f3825?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdlZGRpbmclMjBjYWtlfGVufDB8fDB8fHww"
     },
     {
       title: "Event Planning",
@@ -80,14 +80,14 @@ const Services = () => {
         "Day-of coordination",
         "Full-service planning"
       ],
-      image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1653821355736-0c2598d0a63e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXZlbnQlMjBwbGFubmluZ3xlbnwwfHwwfHx8MA%3D%3D"
     }
   ];
 
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-cover bg-center h-[50vh] flex items-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1605522469906-3fe226b356bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')" }}>
+      <section className="relative bg-cover bg-center h-[50vh] flex items-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1576842546422-60562b9242ae?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2F0ZXJpbmd8ZW58MHx8MHx8fDA%3D')" }}>
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="container mx-auto px-4 z-10 text-white">
           <h1 className="font-playfair text-5xl md:text-6xl font-bold mb-4">Our Services</h1>

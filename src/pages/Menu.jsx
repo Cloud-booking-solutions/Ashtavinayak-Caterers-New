@@ -266,7 +266,7 @@ const Menu = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-cover bg-center h-[50vh] flex items-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1519690889869-e705e59f72e1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')" }}>
+      <section className="relative bg-cover bg-center h-[50vh] flex items-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1680342648571-b95876a6c24d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZCUyMGNhdGVyaW5nfGVufDB8fDB8fHww')" }}>
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="container mx-auto px-4 z-10 text-white">
           <h1 className="font-playfair text-5xl md:text-6xl font-bold mb-4">Our Menu</h1>
